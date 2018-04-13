@@ -2,7 +2,7 @@
 //  Singleton.swift
 //  FoodTrackerFinal
 //
-//  Created by Vu Ngoc Cong on 4/4/18.
+//  Created by Vu Ngoc Cong on 4/14/18.
 //  Copyright © 2018 Vu Ngoc Cong. All rights reserved.
 //
 
