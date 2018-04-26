@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A10650EBC6F16C47734D804 /* Pods_FoodTrackerFinal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDDF5827AA42BAE71726DDE0 /* Pods_FoodTrackerFinal.framework */; };
 		793C0BDE2074FF760019A5D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793C0BDD2074FF760019A5D1 /* AppDelegate.swift */; };
 		793C0BE02074FF760019A5D1 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793C0BDF2074FF760019A5D1 /* MasterViewController.swift */; };
 		793C0BE32074FF760019A5D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 793C0BE12074FF760019A5D1 /* Main.storyboard */; };
@@ -17,9 +18,13 @@
 		793C0BF9207512970019A5D1 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793C0BF8207512970019A5D1 /* MealTableViewCell.swift */; };
 		793C0BFB207512AD0019A5D1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793C0BFA207512AD0019A5D1 /* DetailViewController.swift */; };
 		793C0BFD207512C30019A5D1 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793C0BFC207512C30019A5D1 /* Meal.swift */; };
+		794392152090254C008507FD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794392142090254C008507FD /* LoginViewController.swift */; };
+		7943921720902F56008507FD /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 7943921620902F56008507FD /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		62BDBB6B4C52477F9C0D8FBC /* Pods-FoodTrackerFinal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTrackerFinal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodTrackerFinal/Pods-FoodTrackerFinal.debug.xcconfig"; sourceTree = "<group>"; };
+		792367ED2090873B004F43D0 /* FoodTrackerFinal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FoodTrackerFinal.entitlements; sourceTree = "<group>"; };
 		793C0BDA2074FF760019A5D1 /* FoodTrackerFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTrackerFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		793C0BDD2074FF760019A5D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		793C0BDF2074FF760019A5D1 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -32,6 +37,10 @@
 		793C0BF8207512970019A5D1 /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
 		793C0BFA207512AD0019A5D1 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		793C0BFC207512C30019A5D1 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		794392142090254C008507FD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7943921620902F56008507FD /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF97AB519BDD08B831BCAC75 /* Pods-FoodTrackerFinal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTrackerFinal.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodTrackerFinal/Pods-FoodTrackerFinal.release.xcconfig"; sourceTree = "<group>"; };
+		FDDF5827AA42BAE71726DDE0 /* Pods_FoodTrackerFinal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodTrackerFinal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,17 +48,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A10650EBC6F16C47734D804 /* Pods_FoodTrackerFinal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E4ACF9A777329D13AE875FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDDF5827AA42BAE71726DDE0 /* Pods_FoodTrackerFinal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B89625ED545C6F8BCDEFF3D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62BDBB6B4C52477F9C0D8FBC /* Pods-FoodTrackerFinal.debug.xcconfig */,
+				BF97AB519BDD08B831BCAC75 /* Pods-FoodTrackerFinal.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		793C0BD12074FF760019A5D1 = {
 			isa = PBXGroup;
 			children = (
+				7943921620902F56008507FD /* Podfile */,
 				793C0BDC2074FF760019A5D1 /* FoodTrackerFinal */,
 				793C0BDB2074FF760019A5D1 /* Products */,
+				5B89625ED545C6F8BCDEFF3D /* Pods */,
+				1E4ACF9A777329D13AE875FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,13 +94,13 @@
 		793C0BDC2074FF760019A5D1 /* FoodTrackerFinal */ = {
 			isa = PBXGroup;
 			children = (
+				792367ED2090873B004F43D0 /* FoodTrackerFinal.entitlements */,
 				79554CC8207B078300AE9E35 /* Model */,
 				793C0BFE207512D70019A5D1 /* Controller */,
-				793C0BF5207512340019A5D1 /* DataServices */,
 				793C0BEF20750C1F0019A5D1 /* View */,
-				793C0BDD2074FF760019A5D1 /* AppDelegate.swift */,
 				793C0BE12074FF760019A5D1 /* Main.storyboard */,
 				793C0BE42074FF760019A5D1 /* Assets.xcassets */,
+				793C0BDD2074FF760019A5D1 /* AppDelegate.swift */,
 				793C0BE62074FF760019A5D1 /* LaunchScreen.storyboard */,
 				793C0BE92074FF760019A5D1 /* Info.plist */,
 			);
@@ -86,19 +116,12 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		793C0BF5207512340019A5D1 /* DataServices */ = {
-			isa = PBXGroup;
-			children = (
-				793C0BF6207512650019A5D1 /* DataServices.swift */,
-			);
-			path = DataServices;
-			sourceTree = "<group>";
-		};
 		793C0BFE207512D70019A5D1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				793C0BDF2074FF760019A5D1 /* MasterViewController.swift */,
 				793C0BFA207512AD0019A5D1 /* DetailViewController.swift */,
+				794392142090254C008507FD /* LoginViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -107,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				793C0BFC207512C30019A5D1 /* Meal.swift */,
+				793C0BF6207512650019A5D1 /* DataServices.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -118,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 793C0BEC2074FF760019A5D1 /* Build configuration list for PBXNativeTarget "FoodTrackerFinal" */;
 			buildPhases = (
+				85819B09B23E95114D5D99D3 /* [CP] Check Pods Manifest.lock */,
 				793C0BD62074FF760019A5D1 /* Sources */,
 				793C0BD72074FF760019A5D1 /* Frameworks */,
 				793C0BD82074FF760019A5D1 /* Resources */,
+				AC4FED7B6D911974219899A4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -144,6 +170,11 @@
 					793C0BD92074FF760019A5D1 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -172,11 +203,57 @@
 			files = (
 				793C0BE82074FF760019A5D1 /* LaunchScreen.storyboard in Resources */,
 				793C0BE52074FF760019A5D1 /* Assets.xcassets in Resources */,
+				7943921720902F56008507FD /* Podfile in Resources */,
 				793C0BE32074FF760019A5D1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		85819B09B23E95114D5D99D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodTrackerFinal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC4FED7B6D911974219899A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FoodTrackerFinal/Pods-FoodTrackerFinal-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodTrackerFinal/Pods-FoodTrackerFinal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		793C0BD62074FF760019A5D1 /* Sources */ = {
@@ -187,6 +264,7 @@
 				793C0BF120750C320019A5D1 /* RatingControl.swift in Sources */,
 				793C0BF9207512970019A5D1 /* MealTableViewCell.swift in Sources */,
 				793C0BFD207512C30019A5D1 /* Meal.swift in Sources */,
+				794392152090254C008507FD /* LoginViewController.swift in Sources */,
 				793C0BF7207512650019A5D1 /* DataServices.swift in Sources */,
 				793C0BDE2074FF760019A5D1 /* AppDelegate.swift in Sources */,
 				793C0BFB207512AD0019A5D1 /* DetailViewController.swift in Sources */,
@@ -324,13 +402,19 @@
 		};
 		793C0BED2074FF760019A5D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62BDBB6B4C52477F9C0D8FBC /* Pods-FoodTrackerFinal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FoodTrackerFinal/FoodTrackerFinal.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XY8UWSG2LX;
 				INFOPLIST_FILE = FoodTrackerFinal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cong.FoodTrackerFinal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -338,13 +422,19 @@
 		};
 		793C0BEE2074FF760019A5D1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF97AB519BDD08B831BCAC75 /* Pods-FoodTrackerFinal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FoodTrackerFinal/FoodTrackerFinal.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XY8UWSG2LX;
 				INFOPLIST_FILE = FoodTrackerFinal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cong.FoodTrackerFinal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
